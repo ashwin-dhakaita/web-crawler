@@ -66,7 +66,7 @@ class web_crawler:
             if 'text/html' in response.getheader('Content-Type'):
                 response = response.read()
                 response = response.decode('utf-8')
-                ext = Extractor(url,get_base_url(url),"H://results.txt")
+                ext = Extractor(url,get_base_url(url),"H://results_mtadtu.txt")
                 ext.feed(response)
         except:
             return
@@ -85,6 +85,6 @@ class web_crawler:
                 return
 
 #assigning values to the crawler and starting it    
-web_crawler.url_list.add("https://www.kaggle.com")
-web_crawler.url_master.add("https://www.kaggle.com")
+web_crawler.url_list.add("https://www.mtadtu.com")
+web_crawler.url_master.add("https://www.mtadtu.com")
 web_crawler.start_crawler()

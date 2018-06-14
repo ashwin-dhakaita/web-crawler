@@ -1,8 +1,0 @@
-https://www.kaggle.com/static/images/favicon.ico
-https://www.kaggle.com/static/json/manifest.json
-https://www.kaggle.com/static/assets/vendor.css?v=2dca0d24d7b9
-https://www.kaggle.com/static/assets/app.css?v=d8ea7ccb6850
-https://www.kaggle.com/team
-https://www.kaggle.com/terms
-https://www.kaggle.com/privacy
-https://www.kaggle.com/contact
